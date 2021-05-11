@@ -2,21 +2,22 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Location = React.memo(({ place, units, cost }) => {
+  console.log("render");
   return (
     <React.Fragment>
-      <p>Locations</p>
+      <label>Locations</label>
       <div className="location">
-        <div className="location__item">
-          <p>Place</p>
-          <div>{place?.name}</div>
+        <div className="location-item">
+          <label>Place</label>
+          <div className="">{place?.name}</div>
         </div>
-        <div className="location__item">
-          <p>Units</p>
-          <div>{units}</div>
+        <div className="location-item">
+          <label>Units</label>
+          <div className="">{units}</div>
         </div>
-        <div className="location__item">
-          <p>Cost</p>
-          <div>{cost}</div>
+        <div className="location-item">
+          <label>Cost</label>
+          <div className="">{cost}</div>
         </div>
       </div>
     </React.Fragment>

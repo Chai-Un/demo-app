@@ -1,13 +1,14 @@
 import React, { Suspense } from "react";
 import { Switch, BrowserRouter, Route, Redirect } from "react-router-dom";
-import Header from "./components/layout/Header";
+import Header from "components/Header";
+import "App.scss";
 
 // Path
 const APP_HOME = "/";
 const APP_CALCULATOR = "/calculator";
 
 // Components
-const Calculator = React.lazy(() => import("./components/page/Calculator"));
+const Calculator = React.lazy(() => import("./features/Calculator"));
 
 function App() {
   return (

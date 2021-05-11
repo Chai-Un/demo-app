@@ -1,20 +1,18 @@
-# React Js demoApp
+# Good morning Sir/Madam.
+My name is Tri.
+I'm a software engineer.
+This is my test using some library like: axios, react-router-dom, moment.
+Have a nice day !
 
-
-##### Installed required project dependencies
-
+##### Install node_modules
 ```
 npm install
 ```
-
-##### To start with the development mode
-
+##### Runs the app in the development mode
 ```
 npm start
 ```
-
-##### To compile and make production mode
-
+##### Builds the app for production
 ```
 npm build
 ```
